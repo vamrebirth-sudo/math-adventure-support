@@ -1,6 +1,6 @@
-# 算算探險隊 Math Adventure 支援網站
+# 算算探險隊支援網站
 
-算算探險隊 Math Adventure 的支援頁、隱私權政策、著作權與權利人聯絡。
+算算探險隊的支援頁、隱私權政策、著作權與權利人聯絡。
 
 網站：https://vamrebirth-sudo.github.io/math-adventure-support/
 
