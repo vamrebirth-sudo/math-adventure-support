@@ -7,13 +7,14 @@ a{color:var(--accent);overflow-wrap:anywhere}nav{font-size:.95rem;color:var(--mu
 li{margin:.3em 0}.card{background:var(--card);border-radius:12px;padding:16px 20px;margin:16px 0}footer{margin-top:48px;color:var(--muted);font-size:.85rem}</style></head><body><main><nav><a href="../en/">Support</a><a href="privacy.html">Privacy Policy</a><a href="rights.html">Copyright &amp; Rights Holders</a><a href="../">繁體中文</a></nav><h1>Privacy Policy</h1>
 <p><strong>Applies to:</strong> this iOS app (“the App”)</p>
 <p><strong>Provided by:</strong> the individual developer of this app, shown as the seller (developer) on its App Store page. "We" in this policy means that developer.</p>
-<p><strong>Effective date:</strong> November 16, 2026</p>
+<p><strong>Effective date:</strong> November 17, 2026</p>
 <p>The App is a math adventure game where children practice addition, subtraction, multiplication and division. <strong>The App has no backend server. Child profiles and learning records are stored on the device, and the developer does not receive them through the App.</strong></p>
 <h2>1. Summary</h2>
 <ul>
 <li>No sign-up or sign-in. Parents can enter a display name, choose a built-in avatar and set a school grade for each child. They can leave the display name blank or use a nickname and leave the grade unset.</li>
-<li>The App is a one-time purchase on the App Store. Purchases and payment are handled by Apple; we never receive your payment details.</li>
-<li>No ads, no in-app purchases, and no third-party analytics or tracking tools.</li>
+<li>The App is free to download. You can try everything free for 7 days or unlock the full version with an in-app purchase. Purchases, the trial and payment are handled by Apple; we never receive your payment details, and nothing is charged or renewed automatically.</li>
+<li>The purchase and trial buttons are behind the parent check.</li>
+<li>No ads, and no third-party analytics or tracking tools.</li>
 <li>Parents can export a family backup. If iCloud Backup is on, the iPhone may also back up App data.</li>
 <li>Outside websites open in the device’s browser only after a parent passes the parent check.</li>
 </ul>
@@ -25,18 +26,19 @@ li{margin:.3em 0}.card{background:var(--card);border-radius:12px;padding:16px 20
 <li>Settings: app language, hints, animation, music and sound effects, reading font, enabled operations, tasks per badge, and daily and per-session practice limits.</li>
 <li>Usage time: daily and per-session practice time and the break countdown, used to remind children to take breaks.</li>
 <li>Parent report records: time spent in the App and on the practice screen each day, and the result of each “Check answer” (time, world, chapter, and whether it was correct). These are used to show practice time, accuracy and most missed topics in Settings › Parent report. Only the last 28 days are kept; older records are deleted automatically.</li>
+<li>Purchase check time: the last time the App confirmed purchases with Apple, used only to stop the trial from being extended by setting the device clock back. Purchase and trial records themselves are kept by Apple, and the App always confirms them with Apple instead of relying on data on the device.</li>
 <li>Parent lock: whether it is on and which verification method is used. A parent PIN is not stored in plain text; only a hash for verification and a random salt are kept, in the iPhone Keychain.</li>
 </ul>
 <h2>3. Backup files</h2>
 <p>Parents can choose “Export backup” in Settings to save data for all children in one JSON file and import it on another device.</p>
 <ul>
 <li>The file includes each child’s local profile ID, display name if entered, built-in avatar, grade if set, practice progress including stars and badges, and applicable learning settings. It also records the export time and which child profile was selected.</li>
-<li>The file excludes the parent PIN and its verification data, usage time, the break timer, unfinished answers and parent report records.</li>
+<li>The file excludes the parent PIN and its verification data, usage time, the break timer, unfinished answers, parent report records and the purchase check time. Purchases and the trial do not move with the backup file; on a new device, sign in with the same Apple Account and tap “Restore Purchases”.</li>
 <li>Parents use the system share sheet to choose where to save the file or who receives it, such as the Files app, AirDrop or a cloud drive. The App does not upload backup files automatically. The file is unencrypted, so anyone who can open it can read what it contains. Please store it securely.</li>
 </ul>
 <p>If iCloud Backup is on, the iPhone may also back up App data separately. Apple handles those copies under your Apple Account settings and Apple’s privacy policy. Parents can manage them in iPhone Settings.</p>
 <h2>4. Network and outside websites</h2>
-<p>The App’s games, questions, pictures and music are all inside the App. Practice does not need an internet connection, and the App does not send data in the background. An internet connection is needed only when a parent opens an outside website. The privacy policy, music credits and font licenses in Settings are also built into the App and can be read offline.</p>
+<p>The App’s games, questions, pictures and music are all inside the App. Practice does not need an internet connection, and the App does not send your child’s data in the background. An internet connection is used only when a parent opens an outside website, or when the iPhone confirms purchases with the App Store (see section 5). The privacy policy, music credits and font licenses in Settings are also built into the App and can be read offline.</p>
 <p>The App has no built-in web browser. Outside websites open only in these cases, and always behind the parent check:</p>
 <ul>
 <li>A badge’s reading websites, such as pages from museums or science organizations: after passing the parent check and choosing a site, a parent taps “Open in browser”.</li>
@@ -44,24 +46,32 @@ li{margin:.3em 0}.card{background:var(--card);border-radius:12px;padding:16px 20
 </ul>
 <p>These websites open in the device’s browser (such as Safari). Browsing history, cookies and connection information are then handled by the browser and the website under their own policies; please see each website’s privacy policy. The App <strong>never</strong> sends any of your child’s data to these websites.</p>
 <p>Museums, science organizations and other websites cited by the App are reference sources only. They do not partner with or endorse the App.</p>
-<h2>5. Device permissions</h2>
+<h2>5. Purchases and free trial</h2>
+<p>The App is free to download. The first 3 chapters of every topic in every world are free. The full content can be opened with either of these in-app purchase items:</p>
+<ul>
+<li>“7-Day Free Trial”: a one-time item that costs nothing. When it is chosen, Apple records the start time. Everything is open for 7 days, and then the App goes back to the free chapters. Nothing is charged and nothing turns into a paid purchase automatically. Each Apple Account can use the trial once.</li>
+<li>“Unlock Full Version”: a one-time purchase that opens everything permanently. The price is shown on the App Store.</li>
+</ul>
+<p>Purchases, the trial and payment are completed on Apple’s purchase screen and handled by Apple under its own terms and privacy policy. <strong>We never receive your name, Apple Account, payment method or card details.</strong> The iPhone uses Apple’s StoreKit to check with the App Store which items the device’s Apple Account owns. These transaction records are signed by Apple; the App only reads the result on the device to decide which content to open, and never sends it to the developer or any third party.</p>
+<p>The buttons for starting the trial, purchasing and restoring purchases are in Settings, behind the parent check. If Ask to Buy is turned on in Family Sharing, a parent must also approve the purchase on their own device. To request a refund, contact Apple (reportaproblem.apple.com).</p>
+<h2>6. Device permissions</h2>
 <p>The App does not ask for access to the camera, microphone, location, contacts, photos or notifications, and does not ask to track your activity across other apps or websites.</p>
 <p>Exporting and importing backups uses the system share sheet and file picker, which appear only when a parent chooses to use them.</p>
-<h2>6. Children’s privacy</h2>
+<h2>7. Children’s privacy</h2>
 <p>The App is designed for children and handles privacy in line with Taiwan’s Personal Data Protection Act, the Protection of Children and Youths Welfare and Rights Act, and Apple’s App Store rules for apps in the Kids category:</p>
 <ul>
 <li>A nickname is enough for a child profile. There is no need to provide a child’s legal name, date of birth or a photo.</li>
 <li>No ads, and no third-party analytics or tracking tools.</li>
-<li>Outside links and Settings are behind the parent check.</li>
+<li>Outside links, Settings, purchases and the trial are behind the parent check.</li>
 </ul>
 <p>If we add a feature that sends children’s data to the developer or a service provider, we will first update this policy, notify parents in the App and obtain parental consent where required by law.</p>
-<h2>7. Your rights</h2>
+<h2>8. Your rights</h2>
 <p>Parents can view or edit profiles under Settings › Children &amp; parents › Children. When there is more than one profile, parents can delete a child’s profile and learning records. Choosing “Clear all practice records” clears the currently selected child’s completion records, stars, badges and parent report records.</p>
 <p>Using “Delete App” on your iPhone removes the child profiles and learning records in the App’s folder. The system may retain parent lock data in the Keychain. Parents can manage their exported files and iCloud backups. The developer cannot access on-device records or delete those copies for you.</p>
 <p><strong>Support and rights-holder emails:</strong> If you email us, we receive your email address, your message and anything you choose to include, such as your name, organization, device details or screenshots. This data is handled by the provider of the App only to answer your question or handle a rights notice, for no other purpose, and is deleted once the matter is resolved. Emails are sent and stored through our email provider (Google Gmail) and may be processed outside Taiwan. You can email the address below to ask us to look up, correct or delete your email data; not providing it does not affect your use of the App, though we may be unable to reply. When sending screenshots, please hide your child’s name and other details.</p>
-<h2>8. Changes to this policy</h2>
+<h2>9. Changes to this policy</h2>
 <p>If this policy changes, we will update the effective date above and publish it with an App update. Parents will be notified in the App about significant changes.</p>
-<h2>9. Contact us</h2>
+<h2>10. Contact us</h2>
 <p>If you have any questions about this privacy policy or the App, please contact:</p>
 <ul>
 <li>Email: <a href="mailto:vamrebirth@gmail.com">vamrebirth@gmail.com</a></li>
