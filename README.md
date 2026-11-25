@@ -11,3 +11,5 @@
 | 權利聲明 | [著作權與權利人聯絡](https://vamrebirth-sudo.github.io/math-adventure-support/rights.html) | [Copyright & Rights](https://vamrebirth-sudo.github.io/math-adventure-support/en/rights.html) |
 
 聯絡信箱：vamrebirth@gmail.com
+
+網站內容由 App 內的法律文件產生，兩邊保持一致。
